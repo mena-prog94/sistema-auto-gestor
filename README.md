@@ -12,13 +12,16 @@ Estilos y Maquetación: SCSS Avanzado (35.1%) y hojas HTML nativas de Ionic (22.
 Runtime Nativo: Capacitor Native Config ( capacitor.config.ts)
 Lógica del Servidor (API): PHP 8 orientado a objetos con conexión PDO segura.
 Base de Datos: MySQL Server Remoto.
+
 📐 Patrón de Arquitectura (MVVM)
 El software sigue estrictamente el patrón arquitectónico Model-View-ViewModel (MVVM) para garantizar un desacoplamiento óptimo y modularidad:
 
 Modelo ( src/app/models): Define las interfaces de datos estructuradas e inmutables en TypeScript para Vehículos, Usuarios y Repuestos.
 ViewModel ( src/app/services): Servicios reactivos e inyectables en Angular que encapsulan la lógica de negocio, controlan los estados de la aplicación e interactúan de forma asíncrona mediante solicitudes HTTP con la API RESTful.
 Ver ( src/app/views): Componentes visuales independientes de Ionic encargados de renderizar la interfaz de usuario con validaciones en tiempo real y componentes interactivos como ion-searchbarpara búsquedas predictivas.
+
 ⚙️ Instrucciones de Instalación y Despliegue Local
+
 Requisitos Mínimos
 Node.js (Versión LTS estable)
 Servidor local Apache/MySQL (XAMPP o Laragon para la API en PHP)
